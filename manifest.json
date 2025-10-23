@@ -1,0 +1,25 @@
+{
+    "name": "Custom Map with Icons",
+    "description": "Map visualization supporting custom icon URLs per data point",
+    "resources": {
+      "js": ["index.js"],
+      "css": ["index.css"]
+    },
+    "createViz": "index.html",
+    "data": {
+      "fields": [
+        {"id": "latitude", "name": "Latitude", "type": "NUMBER"},
+        {"id": "longitude", "name": "Longitude", "type": "NUMBER"},
+        {"id": "icon", "name": "Icon URL", "type": "TEXT"},
+        {"id": "label", "name": "Label", "type": "TEXT"}
+      ]
+    },
+    "style": {
+      "backgroundColor": {
+        "label": "Background color",
+        "type": "color",
+        "defaultValue": "#ffffff"
+      }
+    }
+}
+  
